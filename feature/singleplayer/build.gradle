@@ -1,4 +1,8 @@
 apply plugin: 'com.android.dynamic-feature'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+apply from: "../../shared_dependencies.gradle"
 
 android {
     compileSdkVersion 29
@@ -19,4 +23,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':app')
+
 }
