@@ -7,7 +7,7 @@ apply from: "../shared_dependencies.gradle"
 
 android {
     compileSdkVersion versions.compileSDK
-    buildToolsVersion "29.0.3"
+    buildToolsVersion versions.buildTools
     defaultConfig {
         applicationId "dev.wellcoded.trivia"
         minSdkVersion versions.minSDK
@@ -47,5 +47,5 @@ androidExtensions {
 }
 
 dependencies {
-
+    implementation project(':core')
 }

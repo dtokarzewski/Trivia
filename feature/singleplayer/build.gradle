@@ -5,18 +5,17 @@ apply plugin: 'kotlin-android'
 apply from: "../../shared_dependencies.gradle"
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion versions.compileSDK
     
 
 
     defaultConfig {
-        minSdkVersion 23
-        targetSdkVersion 29
+        minSdkVersion versions.minSDK
+        targetSdkVersion versions.targetSDK
         versionCode 1
         versionName "1.0"
 
     }
-
 
 }
 

@@ -1,2 +1,3 @@
-include ':app', ':core', ':feature:singleplayer'
+include ':app'
+include ':core', ':feature:singleplayer'
 rootProject.name='Trivia'

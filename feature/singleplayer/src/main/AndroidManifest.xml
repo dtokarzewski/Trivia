@@ -4,6 +4,7 @@
 
     <dist:module
         dist:instant="false"
+        dist:onDemand="false"
         dist:title="@string/title_singleplayer">
         <dist:delivery>
             <dist:install-time />
@@ -11,7 +12,11 @@
         <dist:fusing dist:include="true" />
     </dist:module>
     <application>
-        <activity android:name=".ui.SingleplayerMenuActivity" />
+        <activity android:name=".ui.SinglePlayerMenuActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
     </application>
 </manifest>
 
