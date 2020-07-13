@@ -1,7 +1,7 @@
 package dev.wellcoded.trivia
 
 import android.app.Application
-import dev.wellcoded.core.network.networkCoreModule
+import dev.wellcoded.trivia.core.network.networkCoreModule
 import dev.wellcoded.trivia.ui.HomeViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.context.startKoin

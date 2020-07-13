@@ -1,20 +1,22 @@
 apply plugin: 'com.android.dynamic-feature'
-apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 apply from: "../../shared_dependencies.gradle"
 
 android {
     compileSdkVersion versions.compileSDK
-    
-
 
     defaultConfig {
         minSdkVersion versions.minSDK
         targetSdkVersion versions.targetSDK
         versionCode 1
         versionName "1.0"
+    }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
 }

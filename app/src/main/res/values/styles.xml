@@ -29,14 +29,13 @@
         <item name="android:textSize">@dimen/text_size_header</item>
     </style>
 
-    <style name="AppButton" parent="TextAppearance.MaterialComponents.Button">
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
         <item name="android:paddingLeft">@dimen/margin_large</item>
         <item name="android:paddingRight">@dimen/margin_large</item>
-        <item name="android:paddingTop">@dimen/margin_small</item>
-        <item name="android:paddingBottom">@dimen/margin_small</item>
+        <item name="android:paddingTop">@dimen/margin_medium</item>
+        <item name="android:paddingBottom">@dimen/margin_medium</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="backgroundTint">@color/primary</item>
     </style>
 
 </resources>

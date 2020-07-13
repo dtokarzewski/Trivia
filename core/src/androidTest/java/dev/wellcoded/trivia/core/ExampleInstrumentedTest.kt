@@ -1,4 +1,4 @@
-package dev.wellcoded.core
+package dev.wellcoded.trivia.core
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("dev.wellcoded.core.test", appContext.packageName)
+        assertEquals("dev.wellcoded.trivia.core.test", appContext.packageName)
     }
 }

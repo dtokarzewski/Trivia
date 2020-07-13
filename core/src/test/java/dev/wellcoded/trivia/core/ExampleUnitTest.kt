@@ -1,4 +1,4 @@
-package dev.wellcoded.core
+package dev.wellcoded.trivia.core
 
 import org.junit.Test
 

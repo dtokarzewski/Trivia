@@ -6,6 +6,8 @@
     <dimen name="margin_small">12dp</dimen>
     <dimen name="margin_x_small">8dp</dimen>
 
+    <dimen name="radius_medium">8dp</dimen>
+
     <dimen name="text_size_title">40sp</dimen>
     <dimen name="text_size_header">24sp</dimen>
     <dimen name="text_size_regular">16sp</dimen>

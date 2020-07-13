@@ -1,6 +1,6 @@
-package dev.wellcoded.core.network
+package dev.wellcoded.trivia.core.network
 
-import dev.wellcoded.core.BuildConfig
+import dev.wellcoded.trivia.core.BuildConfig
 import okhttp3.Interceptor
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module

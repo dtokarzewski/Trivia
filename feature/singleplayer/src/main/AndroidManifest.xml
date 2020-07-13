@@ -1,18 +1,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="dev.wellcoded.singleplayer">
+    package="dev.wellcoded.trivia.singleplayer">
 
     <dist:module
         dist:instant="false"
         dist:onDemand="false"
         dist:title="@string/title_singleplayer">
-        <dist:delivery>
-            <dist:install-time />
-        </dist:delivery>
         <dist:fusing dist:include="true" />
     </dist:module>
+
     <application>
-        <activity android:name=".ui.SinglePlayerMenuActivity" >
+        <activity android:name=".ui.SinglePlayerMenuActivity"
+            android:parentActivityName="dev.wellcoded.trivia.ui.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>

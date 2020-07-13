@@ -1,4 +1,4 @@
-package dev.wellcoded.singleplayer.ui
+package dev.wellcoded.trivia.singleplayer.ui
 
 import androidx.lifecycle.ViewModel
 

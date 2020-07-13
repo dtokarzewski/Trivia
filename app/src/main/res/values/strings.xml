@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Trivia</string>
     <string name="title_singleplayer">Singleplayer</string>
+    <string name="title_multiplayer">Multiplayer</string>
 </resources>
